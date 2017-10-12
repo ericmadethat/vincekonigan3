@@ -1,0 +1,23 @@
+{
+  "name": "vincekonigan",
+  "version": "2.0.0",
+  "description": "Site for Vince Konigan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmadethat/vincekonigan3.git"
+  },
+  "author": "Eric Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericmadethat/vincekonigan3/issues"
+  },
+  "homepage": "https://github.com/ericmadethat/vincekonigan3#readme",
+  "dependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
