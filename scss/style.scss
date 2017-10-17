@@ -44,7 +44,7 @@ p {
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
+        margin: 0;
         font-size: 20px;
         line-height: 1.6;
     }
@@ -249,18 +249,15 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top: 2px solid white;
 }
 
 .download-section {
-    width: 100%;
-    padding: 50px 0;
+    padding: 0;
     color: white;
     background: transparent;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #map {
@@ -271,11 +268,12 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 0;
     }
 
     #map {
@@ -366,16 +364,10 @@ body {
 }
 .mc-signup {
   background: transparent;
-    // background: -moz-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* ff3.6+ */
-    // background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(38,38,38,1)), color-stop(100%, rgba(92,92,92,1))); /* safari4+,chrome */
-    // background: -webkit-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* safari5.1+,chrome10+ */
-    // background: -o-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* opera 11.10+ */
-    // background: -ms-linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* ie10+ */
-    // background: linear-gradient(45deg, rgba(38,38,38,1) 0%, rgba(92,92,92,1) 100%); /* w3c */
-    padding: 5rem 3rem;
-    border-radius: 5px;
-    margin-top: 35px;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 5rem 3rem;
+  border-radius: 5px;
+  margin-top: 35px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 label[for="mce-EMAIL"] {
     font-size: 2rem;

@@ -5326,7 +5326,7 @@ p {
 
 @media (min-width: 767px) {
   p {
-    margin: 0 0 35px;
+    margin: 0;
     font-size: 20px;
     line-height: 1.6; } }
 
@@ -5487,17 +5487,14 @@ a:focus {
     transform: scale(1); } }
 
 .content-section {
-  padding-top: 100px; }
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 2px solid white; }
 
 .download-section {
-  width: 100%;
-  padding: 50px 0;
+  padding: 0;
   color: white;
-  background: transparent;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover; }
+  background: transparent; }
 
 #map {
   width: 100%;
@@ -5506,9 +5503,10 @@ a:focus {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 200px; }
+    padding-top: 60px;
+    padding-bottom: 60px; }
   .download-section {
-    padding: 100px 0; }
+    padding: 0; }
   #map {
     height: 400px;
     margin-top: 250px; } }
