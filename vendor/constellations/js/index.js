@@ -2,15 +2,15 @@
   var Dot, animFrame, config, dotFactory, dots, drawDot, drawLines, dynamicCanvas, mainLoop;
 
   config = {
-    largeDotSize: 9,
+    largeDotSize: 8,
     smallDotSize: 5,
     darkGrey: 'rgba(33,33,33,0.8)',
     lightGrey: 'rgba(51,51,51,@)',
-    bigDots: 30,
-    littleDots: 30,
-    speedModifierX: 2,
-    speedModifierY: 2,
-    lineDistance: 200
+    bigDots: 8,
+    littleDots: 14,
+    speedModifierX: 1.3,
+    speedModifierY: 1.2,
+    lineDistance: 150
   };
 
   Dot = function(size, color, xPos, yPos, context, canvas, vectorX, vectorY, entropyX, entropyY) {

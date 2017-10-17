@@ -72,7 +72,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.2);
 }
 
 .navbar-custom .navbar-brand {
@@ -99,41 +99,36 @@ a:focus {
 }
 
 .navbar-custom .nav li.active {
-    outline: none;
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  outline: none;
+  color: black;
+  text-decoration: line-through;
 }
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.3);
+    text-decoration: line-through;
+    color: black;
 }
-
+.navbar-custom .nav li.active a{
+  color: black;
+}
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: transparent;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+      padding: 20px 0;
+      border-bottom: 0;
+      letter-spacing: 1px;
+      background: transparent;
     }
 
     .top-nav-collapse {
-        padding: 0;
-        background-color: transparent;
+      padding: 0;
+      background-color: transparent;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+      border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
 
@@ -426,5 +421,5 @@ hr.sep {
 }
 #canvas {
   display: block;
-  background-color: #ddd;
+  background-color: #d8d8d8;
 }
