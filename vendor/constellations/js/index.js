@@ -7,7 +7,7 @@
     darkGrey: 'rgba(33,33,33,0.8)',
     lightGrey: 'rgba(51,51,51,@)',
     bigDots: 8,
-    littleDots: 14,
+    littleDots: 13,
     speedModifierX: 1.3,
     speedModifierY: 1.2,
     lineDistance: 150
