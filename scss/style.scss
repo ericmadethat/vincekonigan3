@@ -388,8 +388,60 @@ input#mce-EMAIL {
     background-color: #3fc13f;
     margin-top: 15px;
 }
+.col {
+  position: relative;
+  min-width: 300px;
+  float: left;
+  width: 100%;
+}
+.left {
+  float: left;
+}
+.left-wrap {
+  width: 100%;
+  display: inline-block;
+  min-width: 450px;
+  margin-bottom: 45px;
+}
+.pin-bottom {
+  position: absolute;
+  bottom: 20px;
+  border-top: 1px solid black;
+  padding: 3px 5%;
+  width: 100%;
+  p {
+    font-size: 16px;
+  }
+}
+.img-div {
+  width: 100%;
+}
+@media (min-width: 1000px) {
+  .left-wrap {
+    margin-bottom: 0;
+    width: 50%;
+  }
+  .img-div, .pin-bottom {
+    width: 50%;
+  }
+}
+.right-wrap {
+  float: right;
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  min-width: 300px;
+  border: 1px solid red;
+}
+#projets {
+  h4, p {
+    color: #333;
+    margin: 0;
+  }
+}
 .poster {
-    width: 86%;
+    min-width: 360px;
+    width: 100%;
 }
 p.description {
     font-size: 17px;
