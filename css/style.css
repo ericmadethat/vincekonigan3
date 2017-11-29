@@ -5604,7 +5604,8 @@ input#mce-EMAIL {
   display: inline-block;
   border: none;
   font-size: 2rem;
-  background: rgba(255, 255, 255, 0.7); }
+  background: rgba(255, 255, 255, 0.7);
+  max-width: 220px; }
 
 #mc_embed_signup .btn-default {
   border: 1px solid white;
