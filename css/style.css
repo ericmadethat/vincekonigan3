@@ -5582,9 +5582,7 @@ body {
   padding: 5rem 3rem;
   border-radius: 5px;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  margin: 0 auto;
   margin-top: 35px;
-  width: 80%;
   border: 1px solid white; }
   .mc-signup h2 {
     font-size: 19px;
@@ -5605,7 +5603,7 @@ input#mce-EMAIL {
   border: none;
   font-size: 2rem;
   background: rgba(255, 255, 255, 0.7);
-  max-width: 220px; }
+  max-width: 200px; }
 
 #mc_embed_signup .btn-default {
   border: 1px solid white;
