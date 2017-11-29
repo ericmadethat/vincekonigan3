@@ -5660,14 +5660,13 @@ hr.sep {
 .project-row {
   width: 100%;
   position: relative;
-  float: left;
   text-align: left;
   margin-bottom: 50px; }
   .project-row.reverse {
     float: right; }
   .project-row .project-mod {
     float: left;
-    min-width: 400px;
+    min-width: 320px;
     width: 50%;
     display: inline-block;
     position: relative; }
@@ -5675,6 +5674,9 @@ hr.sep {
       float: right; }
     .project-row .project-mod img {
       width: 100%; }
+    @media (max-device-width: 320px) {
+      .project-row .project-mod img {
+        max-width: 319px; } }
   .project-row h4 {
     margin: 0;
     text-transform: none; }

@@ -451,7 +451,7 @@ hr.sep {
 .project-row {
   width: 100%;
   position: relative;
-  float: left;
+  // float: left;
   text-align: left;
   margin-bottom: 50px;
   &.reverse {
@@ -459,7 +459,7 @@ hr.sep {
   }
   .project-mod {
     float: left;
-    min-width: 400px;
+    min-width: 320px;
     width: 50%;
     display: inline-block;
     position: relative;
@@ -468,6 +468,9 @@ hr.sep {
     }
     img {
       width: 100%;
+    }
+    @media (max-device-width: 320px) {
+      img { max-width: 319px;}
     }
   }
   h4 {
